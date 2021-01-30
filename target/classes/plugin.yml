@@ -1,0 +1,34 @@
+# Core Principal | Plugin privado y confidencial. 
+# NO compartir. 
+# CUIDADO cuando compartimos PANTALLA.
+#                                                       (CLAVES EN TEXTO PLANO)
+
+name: esCORE
+main: esmine.escore.Core
+version: 1.0
+website: dev.esmine.es
+description: Core de EsCore
+authors: [HellFireb, Hamenesku]
+
+commands:
+    spawn:
+        description: Mueve al jugador al punto de aparicion previamente guardado.
+        aliases: [sp]
+        usage: /<command>
+        permission: escore.usuario
+    setspawn:
+        description: Setea el punto principal de aparicion.
+        aliases: [ssp]
+        usage: /<command>
+        permission: escore.usuario
+    prueba:
+        description: Comando de prueba.
+        usage: /<command>
+        permission: escore.usuario
+permissions:
+    escore.usuario:
+        description: Otorga los permisos de un rango invitado o usuario.
+        default: true
+    escore.admin:
+        description: Otorga los permisos de un rango administrativo.
+        default: false

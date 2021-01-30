@@ -1,0 +1,10 @@
+mensajes:
+    ejecucion: '&cEsMine Core iniciado correctamente.'
+    finalizacion: '&cEsMine Core finalizado correctamente.'
+
+gestionSpawn:
+    x: 0
+    y: 200
+    z: 0
+    yaw: 180
+    pit: -10
